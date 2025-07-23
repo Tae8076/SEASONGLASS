@@ -74,12 +74,12 @@
     /* 설명 텍스트 애니메이션 */
     .description-wrapper { /* 설명 텍스트를 감싸는 래퍼 */
       max-height: 0; /* 기본적으로 높이를 0으로 설정하여 숨김 */
-      overflow: hidden; /* 내용이 넘치면 숨김 */
+      
       transition: max-height 0.4s ease-out; /* 높이 변화 애니메이션 */
       
     }
     .item-container.active .description-wrapper {
-      max-height: 1600px; /* 열릴 때 최대 높이 (내용에 따라 조절) */	
+      max-height: 500px; /* 열릴 때 최대 높이 (내용에 따라 조절) */	
     }
     .description {
       font-size: 0.9em;
